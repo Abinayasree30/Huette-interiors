@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details | Huette Interiors</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Huette Logo">
+                <div class="logo-text">
+                    <h2>HUETTE</h2>
+                    <p>interiors</p>
+                </div>
+            </div>
+
+            <button class="menu-toggle" id="menuToggle" type="button" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="details.html">Details</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <div class="header-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+
+                <label class="theme-switch">
+                    <input type="checkbox" id="darkModeToggle">
+                    <span class="slider-toggle"></span>
+                </label>
+
+                <button class="rtl-toggle" id="layoutToggle" type="button">⇄</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="project-details">
+        <div class="container">
+            <h1 class="project-title" id="projectTitle">Living Room Design</h1>
+            <p class="project-subtitle" id="projectSubtitle">
+                Stylish and comfortable living spaces designed for family connection and modern living.
+            </p>
+        </div>
+    </section>
+
+    <section class="project-main-image">
+        <img id="projectMainImage" src="images/gallery1.jpg" alt="Living Room Design">
+    </section>
+
+    <section class="project-info-section">
+        <div class="container project-info-grid">
+            <div class="project-info-box">
+                <h3>Project Type</h3>
+                <p id="projectType">Residential Interior</p>
+            </div>
+
+            <div class="project-info-box">
+                <h3>Location</h3>
+                <p id="projectLocation">Chennai</p>
+            </div>
+
+            <div class="project-info-box">
+                <h3>Style</h3>
+                <p id="projectStyle">Modern Living</p>
+            </div>
+
+            <div class="project-info-box">
+                <h3>Focus</h3>
+                <p id="projectFocus">Comfort & Elegance</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="project-description">
+        <div class="container">
+            <h2>Project Description</h2>
+            <p id="projectDescription1"></p>
+            <p id="projectDescription2"></p>
+        </div>
+    </section>
+
+    <section class="details-gallery">
+        <div class="container">
+            <h2>More Project Views</h2>
+            <div class="details-gallery-grid">
+                <img id="galleryImage1" src="images/gallery1.jpg" alt="View 1">
+                <img id="galleryImage2" src="images/gallery2.jpg" alt="View 2">
+                <img id="galleryImage3" src="images/gallery3.jpg" alt="View 3">
+            </div>
+        </div>
+    </section>
+
+    <section class="all-services-details">
+        <div class="container">
+            <h2 class="all-services-title">All Interior Categories</h2>
+
+            <div class="all-services-grid">
+                <div class="all-service-card">
+                    <img src="images/gallery1.jpg" alt="Living Room">
+                    <h3>Living Room Design</h3>
+                    <p>Warm and welcoming living spaces designed for comfort and family connection.</p>
+                </div>
+
+                <div class="all-service-card">
+                    <img src="images/gallery2.jpg" alt="Bedroom">
+                    <h3>Bedroom Design</h3>
+                    <p>Relaxing bedroom interiors with soft finishes, privacy, and restful comfort.</p>
+                </div>
+
+                <div class="all-service-card">
+                    <img src="images/gallery3.jpg" alt="Kitchen">
+                    <h3>Kitchen Design</h3>
+                    <p>Functional kitchens with efficient layouts, smart storage, and modern style.</p>
+                </div>
+
+                <div class="all-service-card">
+                    <img src="images/gallery4.jpg" alt="Luxury Interior">
+                    <h3>Luxury Interior</h3>
+                    <p>Premium interiors crafted with rich materials and sophisticated visual balance.</p>
+                </div>
+
+                <div class="all-service-card">
+                    <img src="images/gallery5.jpg" alt="Modern Design">
+                    <h3>Modern Design</h3>
+                    <p>Contemporary interiors with clean lines and timeless elegance.</p>
+                </div>
+
+                <div class="all-service-card">
+                    <img src="images/gallery6.jpg" alt="Office Space">
+                    <h3>Office Space</h3>
+                    <p>Professional workspaces planned for productivity, comfort, and identity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="Huette Interiors">
+                <div class="footer-logo-text">
+                    <h2>HUETTE</h2>
+                    <p>interiors</p>
+                </div>
+            </div>
+
+            <div class="footer-social">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scrollTopBtn" type="button" aria-label="Scroll to top">&#8679;</button>
+
+    <script src="js/details.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

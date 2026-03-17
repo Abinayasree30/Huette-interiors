@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Huette Interiors</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+    <div class="container header-container">
+        <div class="logo">
+            <img src="images/logo.png" alt="Huette Logo">
+            <div class="logo-text">
+                <h2>HUETTE</h2>
+                <p>interiors</p>
+            </div>
+        </div>
+
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="nav-menu" id="navMenu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="details.html">Details</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="header-icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+
+            <label class="theme-switch">
+                <input type="checkbox" id="darkModeToggle">
+                <span class="slider-toggle"></span>
+            </label>
+
+            <button class="rtl-toggle" id="layoutToggle" type="button">⇄</button>
+        </div>
+    </div>
+</header>
+
+
+    <section class="contact-hero">
+        <div class="contact-hero-overlay"></div>
+        <div class="container contact-hero-content">
+            <span class="contact-tag">Start Your Project</span>
+            <h1>Let's Create Your Dream Space</h1>
+            <p>Share your ideas with us and we will turn them into elegant, functional interiors tailored to your style.</p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container contact-container">
+
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p class="contact-intro">We would love to hear about your home, office, or renovation project.</p>
+
+                <div class="info-card">
+                    <i class="fas fa-location-dot"></i>
+                    <div>
+                        <h3>Location</h3>
+                        <p>Chennai, Tamil Nadu</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+91 98765 43210</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>info@huetteinteriors.com</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h3>Working Hours</h3>
+                        <p>Mon - Sat: 9:00 AM - 7:00 PM</p>
+                    </div>
+                </div>
+
+                <div class="contact-services">
+                    <span>Living Room</span>
+                    <span>Bedroom</span>
+                    <span>Kitchen</span>
+                    <span>Luxury Interior</span>
+                    <span>Office Space</span>
+                    <span>Modern Design</span>
+                </div>
+
+                <div class="contact-actions">
+                    <a href="tel:+919876543210" class="contact-action-btn">Call Now</a>
+                    <a href="https://wa.me/919876543210" class="contact-action-btn outline">WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h2>Send Message</h2>
+
+                <form>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="text" name="subject" placeholder="Subject">
+                    <textarea name="message" placeholder="Tell us about your project" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact-map-section">
+        <div class="container">
+            <div class="map-header">
+                <h2>Visit Our Studio</h2>
+                <p>Meet us in Chennai to discuss your ideas and design preferences.</p>
+            </div>
+
+            <div class="contact-map">
+                <iframe
+                    src="https://www.google.com/maps?q=chennai&output=embed"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="Huette Interiors">
+                <div class="footer-logo-text">
+                    <h2>HUETTE</h2>
+                    <p>interiors</p>
+                </div>
+            </div>
+
+            <div class="footer-social">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scrollTopBtn">&#8679;</button>
+    <script src="js/script.js"></script>
+</body>
+</html>

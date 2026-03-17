@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Huette Interiors</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <<header class="header">
+    <div class="container header-container">
+        <div class="logo">
+            <img src="images/logo.png" alt="Huette Logo">
+            <div class="logo-text">
+                <h2>HUETTE</h2>
+                <p>interiors</p>
+            </div>
+        </div>
+
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="nav-menu" id="navMenu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="details.html">Details</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="header-icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+
+            <label class="theme-switch">
+                <input type="checkbox" id="darkModeToggle">
+                <span class="slider-toggle"></span>
+            </label>
+
+            <button class="rtl-toggle" id="layoutToggle" type="button">⇄</button>
+        </div>
+    </div>
+</header>
+
+    <section class="services-hero">
+        <div class="services-hero-content">
+            <h1>Our Services</h1>
+            <p>Transforming spaces with creativity and functionality.</p>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="container">
+            <h2 class="gallery-title">Our Design Gallery</h2>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <a href="details.html?type=living-room">
+                        <img src="images/gallery1.jpg" alt="Living Room">
+                        <div class="gallery-overlay">Living Room</div>
+                    </a>
+                </div>
+
+                <div class="gallery-item">
+                    <a href="details.html?type=bedroom">
+                        <img src="images/gallery2.jpg" alt="Bedroom">
+                        <div class="gallery-overlay">Bedroom</div>
+                    </a>
+                </div>
+
+                <div class="gallery-item">
+                    <a href="details.html?type=kitchen">
+                        <img src="images/gallery3.jpg" alt="Kitchen">
+                        <div class="gallery-overlay">Kitchen</div>
+                    </a>
+                </div>
+
+                <div class="gallery-item">
+                    <a href="details.html?type=luxury-interior">
+                        <img src="images/gallery4.jpg" alt="Luxury Interior">
+                        <div class="gallery-overlay">Luxury Interior</div>
+                    </a>
+                </div>
+
+                <div class="gallery-item">
+                    <a href="details.html?type=modern-design">
+                        <img src="images/gallery5.jpg" alt="Modern Design">
+                        <div class="gallery-overlay">Modern Design</div>
+                    </a>
+                </div>
+
+                <div class="gallery-item">
+                    <a href="details.html?type=office-space">
+                        <img src="images/gallery6.jpg" alt="Office Space">
+                        <div class="gallery-overlay">Office Space</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service-details">
+        <div class="container service-detail-container">
+            <div class="service-image">
+                <img src="images/service-detail.jpg" alt="Interior design service">
+            </div>
+
+            <div class="service-text">
+                <h2>Complete Interior Solutions</h2>
+                <p>
+                    We provide complete interior design services for living rooms, bedrooms,
+                    kitchens, luxury interiors, modern spaces, and office environments.
+                </p>
+                <p>
+                    Our designs focus on beauty, comfort, smart planning, and functionality
+                    to create spaces that match your lifestyle and vision.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="before-after-slider">
+        <div class="container">
+            <h2 class="section-title">Before & After Transformation</h2>
+
+            <div class="compare-container">
+                <img src="images/after.jpg" class="after-img" alt="After Design">
+
+                <div class="before-wrapper">
+                    <img src="images/before.jpg" alt="Before Design">
+                </div>
+
+                <input type="range" min="0" max="100" value="50" class="slider">
+            </div>
+        </div>
+    </section>
+
+    <section class="why-choose">
+        <h2>Why Choose Huette Interiors</h2>
+
+        <div class="container choose-grid">
+            <div class="choose-card">
+                <h3>Expert Designers</h3>
+                <p>Experienced designers who understand modern aesthetics and practical planning.</p>
+            </div>
+
+            <div class="choose-card">
+                <h3>Quality Materials</h3>
+                <p>We use premium materials and refined finishes for lasting interior elegance.</p>
+            </div>
+
+            <div class="choose-card">
+                <h3>Client Focused</h3>
+                <p>Your preferences, lifestyle, and comfort guide every design decision we make.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="Huette Interiors">
+                <div class="footer-logo-text">
+                    <h2>HUETTE</h2>
+                    <p>interiors</p>
+                </div>
+            </div>
+
+            <div class="footer-social">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scrollTopBtn">&#8679;</button>
+    <script src="js/script.js"></script>
+</body>
+</html>
